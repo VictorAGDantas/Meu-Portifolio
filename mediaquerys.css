@@ -1,0 +1,286 @@
+@media (max-width: 500px) {
+
+    * {
+        width: auto;
+    }
+
+    .cabecalho {
+        height: 8vh;
+        padding: 5px 20px;
+    }
+
+    .foto-perfil {
+        width: 50px;
+    }
+
+    .perfil span {
+        font-size: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-mob {
+        display: block;
+    }
+    
+    .ico-menu {
+        height: 30px;
+    }
+
+    .ico-menu:hover {
+        fill: blueviolet;
+    }
+
+    .menu-lateral {
+        display: none;
+    }
+
+    #sessao1 {
+        height: 100%;
+        max-height: 1000px;
+    }
+
+    .apresentacao {
+        width: 85%;
+        gap: 80px;
+    }
+
+    .titulo {
+        margin-top: 100px;
+        font-size: 40px;
+    }
+
+    .sinopse {
+        font-size: 20px;
+        color: gray;
+    }
+
+    .apresentacao .btn-projetos {
+        font-size: 20px;
+        max-width: 150px;
+        margin-bottom: 100px;
+    }
+
+    #sessao2 {
+        align-items: center;
+        gap: 40px;
+    }
+
+    .sobre-mim {
+        margin: 50px 0px;
+        width: 85%;
+    }
+
+    .sobre-mim p {
+        font-size: 20px;
+        color: gray;
+        margin-top: 40px;
+    }
+
+    .sobre-mim h2::after {
+        width: 60px;
+        height: 10px;
+    }
+
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .desc-profissao {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        gap: 50px;
+        padding: 0;
+    }
+
+    h3 {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    #item1, #item2 {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    #item1 p {
+        color: gray;
+    }
+
+    .btn-contato {
+        margin-top: 50px;
+        font-size: 22px;
+        padding: 12px 20px;
+        text-align: center;
+        width: 100px;
+    }
+
+    .skills {
+        gap: 16px;
+        margin-bottom: 10px;
+    }
+
+    .skill {
+        font-size: 20px;
+        padding: 8px 16px;
+    }
+
+    #sessao3 {
+        padding: 0;
+    }
+
+    .aba-projeto {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aba-projeto h2::after {
+        width: 60px;
+        height: 10px;
+    }
+
+    .aba-projeto p {
+        width: 85%;
+        color: gray;
+        margin-top: 30px;
+    }
+
+    .projetos {
+        margin: 50px 0 20px;
+    }
+
+    .projeto {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .projeto img {
+        width: 95%;
+    }
+
+    .inf-projeto {
+        text-align: center;
+        align-items: center;
+        width: 85%;
+        gap: 10px;
+    }
+
+    .inf-projeto h3, .inf-projeto-2 h3, .inf-projeto-3 h3,.inf-projeto-4 h3 {
+        margin-bottom: 20px;
+    }
+
+    .btn-visualizar {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .inf-projeto-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 85%;
+        gap: 10px;
+    }
+
+    .btn-2 {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .inf-projeto-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 85%;
+        gap: 10px;
+    }
+
+    .btn-3 {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .inf-projeto-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 85%;
+        gap: 10px;
+    }
+
+    .btn-4 {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .contato h2::after {
+        width: 60px;
+        height: 10px;
+    }
+
+    .contato p {
+        color: gray;
+        margin-top: 40px;
+        font-size: 40px;
+    }
+
+    .formulario {
+        width: 80%;
+    }
+
+    .botao-forms {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-formulario {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .inf-rodape {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 50px;
+        padding-top: 40px;
+        padding: 0;
+    }
+
+    .item-rodape2 {
+        padding-top: 40px;
+    }
+
+    .item-rodape1, .item-rodape2 {
+        padding-left: 20px;
+        width: 85%;
+    }
+
+    .contato p {
+        font-size: 20px;
+    }
+
+    .botao-forms {
+        margin-top: 20px;
+    }
+
+
+}

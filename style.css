@@ -1,0 +1,479 @@
+/*Reset CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-color: blueviolet rgb(247, 247, 247);
+}
+
+a:active {
+    color: inherit;
+}
+
+.menu-list a {
+    color: black;
+}
+
+header {
+    padding: 5px;
+    box-shadow: 0px 10px 15px -15px gray;
+}
+
+.menu-list a:hover {
+    color: blueviolet;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 80px 5px 80px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.foto-perfil {
+    width: 50px;
+}
+
+.perfil span:hover {
+    color: blueviolet;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-list {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-mob {
+    display: none;
+}
+
+.menu-lateral {
+    position: fixed;
+    left: 0;
+    top: 30%;
+    width: 50px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 30px -10px gray;
+    z-index: 10;
+}
+
+.menu-lateral li {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-lateral li:hover {
+    background-color: blueviolet;
+    border-radius: 5px;
+    fill: white;
+}
+
+.inf-laterais {
+    position: fixed;
+    right: 20px;
+    bottom: 10%;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-top {
+    background-color: blueviolet;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.btn-top:hover {
+    background-color: purple;
+    
+}
+
+.icon-top {
+    filter: invert(1);
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.redes-sociais li {
+    width: 32px;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+#sessao1 {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(245,245,245,0.8), rgba(245,245,245,0.8)), url('https://www.rammaheshwari.com/assets/svg/common-bg.svg');
+}
+
+.apresentacao {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao .btn-projetos {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    width: 200px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+#sessao2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    padding: 20px 20px 40px 20px;
+}
+
+.sobre-mim {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.sobre-mim h2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.sobre-mim h2::after {
+    content: "";
+    width: 20px;
+    height: 4px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.desc-profissao {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 10px 60px;
+
+}
+
+#item1, #item2 {
+    width: 45vw;
+    gap: 40px;
+}
+
+.sobre-profissao {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn-contato {
+    margin-top: 40px;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+}
+
+.skills {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.skill {
+    padding: 10px;
+    background-color: #E7E7E7;
+    border-radius: 8px;
+    color: #666;
+}
+
+.skill:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+#sessao3 {
+    padding: 20px;
+}
+
+.aba-projeto {
+    margin-top: 20px;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.aba-projeto h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.aba-projeto h2::after {
+    content: "";
+    width: 20px;
+    height: 4px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.img-projeto {
+    max-width: 600px;
+    width: 100%;
+}
+
+.inf-projeto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+}
+
+.btn-visualizar {
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    color: white;
+}
+
+.img-2 {
+    max-width: 600px;
+    width: 100%;
+}
+
+.inf-projeto-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btn-2 {
+    padding: 10px;
+    width: 150px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.img-3 {
+    max-width: 600px;
+    width: 100%;
+}
+
+.inf-projeto-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btn-3 {
+    padding: 10px;
+    width: 150px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.img-4 {
+    max-width: 600px;
+    width: 100%;
+}
+
+.inf-projeto-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.btn-4 {
+    padding: 10px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#sessao4 {
+    background-image: linear-gradient(to right, rgba(245,245,245,0.8), rgba(245,245,245,0.8)), url('https://www.rammaheshwari.com/assets/svg/common-bg.svg');
+    padding: 20px 0px 60px 0px;
+}
+
+.contato {
+    text-align: center;
+    padding: 20px;
+}
+
+.contato h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contato h2::after {
+    content: "";
+    width: 20px;
+    height: 4px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.formulario {
+    max-width: 750px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 30px -10px gray;
+}
+
+.forms-cadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+label {
+    color: #666;
+}
+
+.forms-cadastro input {
+    padding: 15px 10px;
+    max-width: 750px;
+
+}
+
+.forms-cadastro textarea {
+    min-height: 80px;
+    padding: 10px;
+    max-width: 750px;
+    resize: none;
+}
+
+.botao-forms {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-formulario {
+    float: right;
+    width: 150px;
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.inf-rodape {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    padding: 0px 40px 0px 40px;
+}
+
+.item-rodape1 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+}
+
+.item-rodape2 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape-redes-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+.rodape-redes-sociais li {
+    fill: white;
+}
+
+.rodape-redes-sociais li:hover {
+    fill: blueviolet;
+}
+
+.copyright {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px solid gray;
+}
+
+.text {
+    padding: 40px 0px 0px 0px;
+}
+
+.btn-visualizar:hover, .btn-2:hover, .btn-3:hover, .btn-4:hover, .apresentacao:hover .btn-projetos:hover, .btn-contato:hover, .btn-formulario:hover {
+    background-color: purple;
+}
