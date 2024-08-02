@@ -298,6 +298,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 500px;
 }
 
 .btn-2 {
@@ -318,6 +319,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 500px;
 }
 
 .btn-3 {
@@ -338,6 +340,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 500px;
 }
 
 .btn-4 {
