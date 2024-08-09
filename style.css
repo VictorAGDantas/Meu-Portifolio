@@ -85,6 +85,9 @@ header {
 .menu-lateral li:hover {
     background-color: blueviolet;
     border-radius: 5px;
+}
+
+.menu-lateral li:hover svg {
     fill: white;
 }
 
@@ -459,11 +462,11 @@ footer {
     gap: 10px;
 }
 
-.rodape-redes-sociais li {
+.rodape-redes-sociais li svg{
     fill: white;
 }
 
-.rodape-redes-sociais li:hover {
+.rodape-redes-sociais li:hover svg {
     fill: blueviolet;
 }
 
